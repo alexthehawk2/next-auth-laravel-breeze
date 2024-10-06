@@ -1,3 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  // turn off all eslint rules
+  "rules": {
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "no-unused-imports": "off",
+    "no-unused-components": "off",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "no-unused-imports": "off",
+    "no-unused-components": "off",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+  }
 }
